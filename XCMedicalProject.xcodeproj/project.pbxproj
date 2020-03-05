@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D1951BE12410E56B00B5AD98 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1951BE02410E56B00B5AD98 /* AppDelegate.m */; };
+		D1951BE42410E56B00B5AD98 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1951BE32410E56B00B5AD98 /* SceneDelegate.m */; };
+		D1951BE72410E56B00B5AD98 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1951BE62410E56B00B5AD98 /* ViewController.m */; };
+		D1951BEA2410E56B00B5AD98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1951BE82410E56B00B5AD98 /* Main.storyboard */; };
+		D1951BEC2410E56D00B5AD98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1951BEB2410E56D00B5AD98 /* Assets.xcassets */; };
+		D1951BEF2410E56D00B5AD98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1951BED2410E56D00B5AD98 /* LaunchScreen.storyboard */; };
+		D1951BF22410E56D00B5AD98 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D1951BF12410E56D00B5AD98 /* main.m */; };
+		D1951BFC2410E56E00B5AD98 /* XCMedicalProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D1951BFB2410E56E00B5AD98 /* XCMedicalProjectTests.m */; };
+		D1951C072410E56E00B5AD98 /* XCMedicalProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D1951C062410E56E00B5AD98 /* XCMedicalProjectUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D1951BF82410E56E00B5AD98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D1951BD42410E56B00B5AD98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1951BDB2410E56B00B5AD98;
+			remoteInfo = XCMedicalProject;
+		};
+		D1951C032410E56E00B5AD98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D1951BD42410E56B00B5AD98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1951BDB2410E56B00B5AD98;
+			remoteInfo = XCMedicalProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D1951BDC2410E56B00B5AD98 /* XCMedicalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XCMedicalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1951BDF2410E56B00B5AD98 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D1951BE02410E56B00B5AD98 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D1951BE22410E56B00B5AD98 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		D1951BE32410E56B00B5AD98 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		D1951BE52410E56B00B5AD98 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D1951BE62410E56B00B5AD98 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D1951BE92410E56B00B5AD98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D1951BEB2410E56D00B5AD98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D1951BEE2410E56D00B5AD98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D1951BF02410E56D00B5AD98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1951BF12410E56D00B5AD98 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D1951BF72410E56E00B5AD98 /* XCMedicalProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XCMedicalProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1951BFB2410E56E00B5AD98 /* XCMedicalProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XCMedicalProjectTests.m; sourceTree = "<group>"; };
+		D1951BFD2410E56E00B5AD98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1951C022410E56E00B5AD98 /* XCMedicalProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XCMedicalProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1951C062410E56E00B5AD98 /* XCMedicalProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XCMedicalProjectUITests.m; sourceTree = "<group>"; };
+		D1951C082410E56E00B5AD98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D1951BD92410E56B00B5AD98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1951BF42410E56E00B5AD98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1951BFF2410E56E00B5AD98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D1951BD32410E56B00B5AD98 = {
+			isa = PBXGroup;
+			children = (
+				D1951BDE2410E56B00B5AD98 /* XCMedicalProject */,
+				D1951BFA2410E56E00B5AD98 /* XCMedicalProjectTests */,
+				D1951C052410E56E00B5AD98 /* XCMedicalProjectUITests */,
+				D1951BDD2410E56B00B5AD98 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D1951BDD2410E56B00B5AD98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D1951BDC2410E56B00B5AD98 /* XCMedicalProject.app */,
+				D1951BF72410E56E00B5AD98 /* XCMedicalProjectTests.xctest */,
+				D1951C022410E56E00B5AD98 /* XCMedicalProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D1951BDE2410E56B00B5AD98 /* XCMedicalProject */ = {
+			isa = PBXGroup;
+			children = (
+				D1951BDF2410E56B00B5AD98 /* AppDelegate.h */,
+				D1951BE02410E56B00B5AD98 /* AppDelegate.m */,
+				D1951BE22410E56B00B5AD98 /* SceneDelegate.h */,
+				D1951BE32410E56B00B5AD98 /* SceneDelegate.m */,
+				D1951BE52410E56B00B5AD98 /* ViewController.h */,
+				D1951BE62410E56B00B5AD98 /* ViewController.m */,
+				D1951BE82410E56B00B5AD98 /* Main.storyboard */,
+				D1951BEB2410E56D00B5AD98 /* Assets.xcassets */,
+				D1951BED2410E56D00B5AD98 /* LaunchScreen.storyboard */,
+				D1951BF02410E56D00B5AD98 /* Info.plist */,
+				D1951BF12410E56D00B5AD98 /* main.m */,
+			);
+			path = XCMedicalProject;
+			sourceTree = "<group>";
+		};
+		D1951BFA2410E56E00B5AD98 /* XCMedicalProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				D1951BFB2410E56E00B5AD98 /* XCMedicalProjectTests.m */,
+				D1951BFD2410E56E00B5AD98 /* Info.plist */,
+			);
+			path = XCMedicalProjectTests;
+			sourceTree = "<group>";
+		};
+		D1951C052410E56E00B5AD98 /* XCMedicalProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D1951C062410E56E00B5AD98 /* XCMedicalProjectUITests.m */,
+				D1951C082410E56E00B5AD98 /* Info.plist */,
+			);
+			path = XCMedicalProjectUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D1951BDB2410E56B00B5AD98 /* XCMedicalProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1951C0B2410E56E00B5AD98 /* Build configuration list for PBXNativeTarget "XCMedicalProject" */;
+			buildPhases = (
+				D1951BD82410E56B00B5AD98 /* Sources */,
+				D1951BD92410E56B00B5AD98 /* Frameworks */,
+				D1951BDA2410E56B00B5AD98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XCMedicalProject;
+			productName = XCMedicalProject;
+			productReference = D1951BDC2410E56B00B5AD98 /* XCMedicalProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D1951BF62410E56E00B5AD98 /* XCMedicalProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1951C0E2410E56E00B5AD98 /* Build configuration list for PBXNativeTarget "XCMedicalProjectTests" */;
+			buildPhases = (
+				D1951BF32410E56E00B5AD98 /* Sources */,
+				D1951BF42410E56E00B5AD98 /* Frameworks */,
+				D1951BF52410E56E00B5AD98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1951BF92410E56E00B5AD98 /* PBXTargetDependency */,
+			);
+			name = XCMedicalProjectTests;
+			productName = XCMedicalProjectTests;
+			productReference = D1951BF72410E56E00B5AD98 /* XCMedicalProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D1951C012410E56E00B5AD98 /* XCMedicalProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1951C112410E56E00B5AD98 /* Build configuration list for PBXNativeTarget "XCMedicalProjectUITests" */;
+			buildPhases = (
+				D1951BFE2410E56E00B5AD98 /* Sources */,
+				D1951BFF2410E56E00B5AD98 /* Frameworks */,
+				D1951C002410E56E00B5AD98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1951C042410E56E00B5AD98 /* PBXTargetDependency */,
+			);
+			name = XCMedicalProjectUITests;
+			productName = XCMedicalProjectUITests;
+			productReference = D1951C022410E56E00B5AD98 /* XCMedicalProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D1951BD42410E56B00B5AD98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = iTwinkle;
+				TargetAttributes = {
+					D1951BDB2410E56B00B5AD98 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					D1951BF62410E56E00B5AD98 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = D1951BDB2410E56B00B5AD98;
+					};
+					D1951C012410E56E00B5AD98 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = D1951BDB2410E56B00B5AD98;
+					};
+				};
+			};
+			buildConfigurationList = D1951BD72410E56B00B5AD98 /* Build configuration list for PBXProject "XCMedicalProject" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D1951BD32410E56B00B5AD98;
+			productRefGroup = D1951BDD2410E56B00B5AD98 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D1951BDB2410E56B00B5AD98 /* XCMedicalProject */,
+				D1951BF62410E56E00B5AD98 /* XCMedicalProjectTests */,
+				D1951C012410E56E00B5AD98 /* XCMedicalProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D1951BDA2410E56B00B5AD98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1951BEF2410E56D00B5AD98 /* LaunchScreen.storyboard in Resources */,
+				D1951BEC2410E56D00B5AD98 /* Assets.xcassets in Resources */,
+				D1951BEA2410E56B00B5AD98 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1951BF52410E56E00B5AD98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1951C002410E56E00B5AD98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D1951BD82410E56B00B5AD98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1951BE72410E56B00B5AD98 /* ViewController.m in Sources */,
+				D1951BE12410E56B00B5AD98 /* AppDelegate.m in Sources */,
+				D1951BF22410E56D00B5AD98 /* main.m in Sources */,
+				D1951BE42410E56B00B5AD98 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1951BF32410E56E00B5AD98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1951BFC2410E56E00B5AD98 /* XCMedicalProjectTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1951BFE2410E56E00B5AD98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1951C072410E56E00B5AD98 /* XCMedicalProjectUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D1951BF92410E56E00B5AD98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1951BDB2410E56B00B5AD98 /* XCMedicalProject */;
+			targetProxy = D1951BF82410E56E00B5AD98 /* PBXContainerItemProxy */;
+		};
+		D1951C042410E56E00B5AD98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1951BDB2410E56B00B5AD98 /* XCMedicalProject */;
+			targetProxy = D1951C032410E56E00B5AD98 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D1951BE82410E56B00B5AD98 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1951BE92410E56B00B5AD98 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D1951BED2410E56D00B5AD98 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1951BEE2410E56D00B5AD98 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D1951C092410E56E00B5AD98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D1951C0A2410E56E00B5AD98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D1951C0C2410E56E00B5AD98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 52292QMC93;
+				INFOPLIST_FILE = XCMedicalProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = XC.XCMedicalProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D1951C0D2410E56E00B5AD98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 52292QMC93;
+				INFOPLIST_FILE = XCMedicalProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = XC.XCMedicalProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D1951C0F2410E56E00B5AD98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 52292QMC93;
+				INFOPLIST_FILE = XCMedicalProjectTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = XC.XCMedicalProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XCMedicalProject.app/XCMedicalProject";
+			};
+			name = Debug;
+		};
+		D1951C102410E56E00B5AD98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 52292QMC93;
+				INFOPLIST_FILE = XCMedicalProjectTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = XC.XCMedicalProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XCMedicalProject.app/XCMedicalProject";
+			};
+			name = Release;
+		};
+		D1951C122410E56E00B5AD98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 52292QMC93;
+				INFOPLIST_FILE = XCMedicalProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = XC.XCMedicalProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = XCMedicalProject;
+			};
+			name = Debug;
+		};
+		D1951C132410E56E00B5AD98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 52292QMC93;
+				INFOPLIST_FILE = XCMedicalProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = XC.XCMedicalProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = XCMedicalProject;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D1951BD72410E56B00B5AD98 /* Build configuration list for PBXProject "XCMedicalProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1951C092410E56E00B5AD98 /* Debug */,
+				D1951C0A2410E56E00B5AD98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1951C0B2410E56E00B5AD98 /* Build configuration list for PBXNativeTarget "XCMedicalProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1951C0C2410E56E00B5AD98 /* Debug */,
+				D1951C0D2410E56E00B5AD98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1951C0E2410E56E00B5AD98 /* Build configuration list for PBXNativeTarget "XCMedicalProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1951C0F2410E56E00B5AD98 /* Debug */,
+				D1951C102410E56E00B5AD98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1951C112410E56E00B5AD98 /* Build configuration list for PBXNativeTarget "XCMedicalProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1951C122410E56E00B5AD98 /* Debug */,
+				D1951C132410E56E00B5AD98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D1951BD42410E56B00B5AD98 /* Project object */;
+}
